@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- 1. 数据与结果 (最重要) ---
+# 忽略存放原始行情的文件夹
+local data/
+# 忽略所有回测生成的 Excel 报告
+*.xlsx
+# 忽略任何生成的临时数据文件
+*.parquet
+*.csv
+
+# --- 2. Python 环境 ---
+__pycache__/
+*.py[cod]
+*$py.class
+# 忽略虚拟环境文件夹
+venv/
+.venv/
+env/
+
+# --- 3. 操作系统与编辑器 ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
