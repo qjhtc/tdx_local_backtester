@@ -1,0 +1,2 @@
+# tdx_local_backtester
+一个基于通达信数据导出和Baostock的A股策略回测框架
