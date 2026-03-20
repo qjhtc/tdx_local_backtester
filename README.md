@@ -15,9 +15,6 @@
 
 下面是AI写的readme
 
-为了让你的项目在 GitHub 上看起来专业且易于使用，一份优秀的 README.md 应该包含项目简介、安装指南、核心功能展示以及结果示例。
-
-以下是为你量身定制的 README.md 内容，你可以直接复制到项目根目录下：
 🚀 A-Share Quantitative Backtesting System (SLBull Strategy)
 
 这是一个基于 Python 开发的高性能 A 股量化回测系统，专注于 趋势追踪 (Trend Following) 与 线性拟合评分 (MSE Scoring) 策略。系统支持 T+1 成交模拟、自动抓取沪深 300 基准对比，并生成一键式 Excel 综合分析报告。
