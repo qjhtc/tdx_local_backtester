@@ -1,5 +1,5 @@
 # tdx_local_backtester
-一个AI写的，基于通达信数据导出和Baostock的A股策略回测框架
+一个AI写的，基于通达信数据导出和Baostock的A股策略回测框架。因为都是ai写的所以太复杂的东西我也不懂。
 
 数据源：来自于通达信数据导出-高级导出。导出后会获得无数以证券代码命名的txt文件，放在local data\tdx a-shr data文件夹下。
 
