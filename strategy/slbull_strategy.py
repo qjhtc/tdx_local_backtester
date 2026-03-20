@@ -61,6 +61,6 @@ class SLBullStrategy:
             
         # 3. 按平整度(MSE)排序，取前 TopN
         buy_signals = pd.DataFrame(ranking_list).sort_values('MSE').head(self.top_n)
-        buy_signals['信号'] = 'BUY'
+        buy_signals['signals'] = 'BUY'
         
-        return buy_signals[['date', 'code', 'name', '信号']]
+        return buy_signals[['date', 'code', 'name', 'signals']]
